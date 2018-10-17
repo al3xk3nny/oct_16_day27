@@ -8,7 +8,7 @@ people = ["John", "Paul", "George", "Ringo"]
 
 @app.route("/", methods=["GET"])
 def show_index():
-    return render_template("index.html", data=messages, beatles=people) 
+    return render_template("index1.html", data=messages, beatles=people) 
    
     # Render, in other words means, open "index.html" read it and return it, but while you're doing that, consider data, "messages". # Also, word "data" is not reserves. It could be anything (i.e. more typically, messages - see for loop in index.html, could read; for message in messages).
 

@@ -1,0 +1,14 @@
+{% extends "base3.html" %}
+
+{% block content %}    
+    <h2>Login page</h2>
+    
+    <hr>
+    
+    <form action="/login" method="POST">
+        <label for="id_username">Username:</label>
+        <p><input type="text" id="id_username" name="username" placeholder="Alex" /></p>
+        <p><input type="submit" value="Login" /></p>
+    </form>
+    
+{% endblock content %}
