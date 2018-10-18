@@ -1,0 +1,1 @@
+web: python tryflask3.py
